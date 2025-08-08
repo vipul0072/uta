@@ -1,0 +1,152 @@
+/* LandingPage.css */
+
+.landing-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f4f4f9, #e0e0e8);
+    /* border: 1px solid red; */
+  }
+  
+  .landing-content {
+    text-align: left;
+  }
+  .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    min-height: 85vh;
+  }
+  .landing-page h1 {
+    /* border: 1px solid red; */
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page .para {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+  }
+  h2{
+    font-size: 2rem;
+    margin: 10px;color: #2c3e50;
+  }
+  .button-container {
+    /* border: 1px solid red; */
+    padding: 10px 100px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .landing-page .landing-btn {
+    /* border: 1px solid red; */
+    margin: auto;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .landing-page .landing-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .landing-image {
+    display: flex;
+    justify-self: center;
+    /* margin-bottom: 1.5rem; */
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .factsheet p{
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 15px;
+    /* border: 1px solid red; */
+  }
+  .factsheet{
+    /* border: 1px solid red; */
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width:876px){
+    .button-container{
+      padding: 10px 30px;
+    }
+  }
+
+  @media (max-width:735px){
+    .button-container{
+      padding: 8px 15px;
+      gap: 5px;
+    }
+    .landing-image{
+      display: none;
+    }
+    .content{
+      display: block;
+      min-height: 40vh;
+    }
+  }
+  @media (max-width:675px){
+    .button-container{
+      padding: 2px 5px;
+    }
+    .landing-page .landing-btn {
+      padding: 10px 35px;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width:545px){
+    .button-container{
+      display: flex;
+      flex-direction: column;
+
+    }
+    .landing-btn{
+      width: 70%;
+      
+    }
+
+  }
+  @media (max-width:410px){
+    .content{
+      display: block;
+      min-height: 10vh;
+    }
+    .landing-page h1 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+    .landing-page .para{
+      font-size: 1.1rem;
+    }
+    .button-container{
+      min-height: 25vh;
+      padding: 2px;
+    }
+    
+  }
+  

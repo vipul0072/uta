@@ -1,0 +1,117 @@
+/* RegistrationPage.css */
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #f4f4f9, #e0e0e8);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .registration-form {
+    max-width: 60%;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .registration-form h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  .input-form-option select{
+    display: flex;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  .input-form{
+    margin-bottom: 20px;
+  }
+  .input-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+
+  .input-form-option label{
+    margin: 10px;
+    display: flex;
+    align-items: start;
+    /* border: 1px solid red; */
+  }
+  .input-form-option input{
+    margin: 2px;
+  }
+  .input-form-option h2{
+    color: #080808;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+  }
+  
+  .registration-form .rt-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .registration-form .rt-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .registration-image {
+    max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width:760px){
+    .registration-image {
+      display: none;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .registration-page {
+      flex-direction: column;
+      padding: 20px;
+    }
+    .registration-form {
+      max-width: 100%;
+    }
+    .registration-image {
+      display: none;
+    }
+  }
+
+  @media (max-width: 454px){
+    .registration-form h1{
+      font-size: 1.6rem;
+    }
+
+  }
+
+  @media (max-width: 366px){
+    .registration-form h1{
+      font-size: 1.2rem;
+    }
+
+  }

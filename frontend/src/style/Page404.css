@@ -1,0 +1,12 @@
+.page404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+.head-3{
+     font-family: sans-serif;
+     color: gray;
+     font-size: 4rem;
+}
